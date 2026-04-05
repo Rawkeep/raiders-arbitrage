@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "FlipFlow Pro Capture",
+  "version": "1.0.0",
+  "description": "Erfasst Listings von Kleinanzeigen, Vinted & FB Marketplace für FlipFlow Pro",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.kleinanzeigen.de/*",
+        "https://www.ebay-kleinanzeigen.de/*",
+        "https://www.vinted.de/*",
+        "https://www.vinted.fr/*",
+        "https://www.vinted.co.uk/*",
+        "https://www.facebook.com/marketplace/*"
+      ],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

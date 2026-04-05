@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06060c"/>
+      <stop offset="100%" stop-color="#0a0a18"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="60" y="60" width="72" height="72" rx="16" fill="url(#accent)"/>
+  <text x="96" y="112" text-anchor="middle" font-size="40" fill="#fff" font-family="system-ui">⚡</text>
+  <text x="156" y="100" font-size="36" font-weight="800" fill="#e2e8f0" font-family="monospace" letter-spacing="-1">FlipFlow Pro</text>
+  <text x="156" y="128" font-size="16" fill="#475569" font-family="system-ui">Multi-Plattform Arbitrage Engine</text>
+  <text x="600" y="340" text-anchor="middle" font-size="52" font-weight="800" fill="#e2e8f0" font-family="system-ui">Finde · Kaufe · Verkaufe</text>
+  <text x="600" y="390" text-anchor="middle" font-size="22" fill="#94a3b8" font-family="system-ui">KI-Scoring · Cross-Plattform · Automatisiert</text>
+  <g transform="translate(340, 440)">
+    <rect width="100" height="36" rx="8" fill="#86BC2520" stroke="#86BC2544" stroke-width="1"/>
+    <text x="50" y="24" text-anchor="middle" font-size="13" fill="#86BC25" font-family="system-ui" font-weight="600">🟢 Kleinanz.</text>
+  </g>
+  <g transform="translate(460, 440)">
+    <rect width="80" height="36" rx="8" fill="#E5323820" stroke="#E5323844" stroke-width="1"/>
+    <text x="40" y="24" text-anchor="middle" font-size="13" fill="#E53238" font-family="system-ui" font-weight="600">�� eBay</text>
+  </g>
+  <g transform="translate(560, 440)">
+    <rect width="86" height="36" rx="8" fill="#09B1BA20" stroke="#09B1BA44" stroke-width="1"/>
+    <text x="43" y="24" text-anchor="middle" font-size="13" fill="#09B1BA" font-family="system-ui" font-weight="600">🟣 Vinted</text>
+  </g>
+  <g transform="translate(666, 440)">
+    <rect width="80" height="36" rx="8" fill="#1877F220" stroke="#1877F244" stroke-width="1"/>
+    <text x="40" y="24" text-anchor="middle" font-size="13" fill="#1877F2" font-family="system-ui" font-weight="600">🔵 FB</text>
+  </g>
+  <g transform="translate(766, 440)">
+    <rect width="76" height="36" rx="8" fill="#F5640020" stroke="#F5640044" stroke-width="1"/>
+    <text x="38" y="24" text-anchor="middle" font-size="13" fill="#F56400" font-family="system-ui" font-weight="600">🟠 Etsy</text>
+  </g>
+  <rect x="0" y="610" width="1200" height="20" fill="url(#accent)" opacity="0.6"/>
+</svg>
