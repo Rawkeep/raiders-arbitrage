@@ -1,5 +1,21 @@
 # ⚡ FlipFlow Pro
 
+## Quick Deploy
+
+### Railway (empfohlen)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Rawkeep/FlipFlow-AI-Creator)
+
+### Docker
+```bash
+docker build -t flipflow .
+docker run -p 3002:3001 --env-file .env flipflow
+```
+
+### Coolify (Self-Hosted)
+Siehe [Deployment-Guide](https://github.com/Rawkeep/deployment)
+
+---
+
 **Multi-Plattform Arbitrage Engine** — Finde unterbewertete Listings, kaufe günstig, verkaufe mit Gewinn.
 
 ## Features
